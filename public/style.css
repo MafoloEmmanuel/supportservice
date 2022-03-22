@@ -1,0 +1,123 @@
+body{
+    background-color: #1d3958;
+}
+* {
+    box-sizing: border-box;
+  }
+.container{
+   margin: auto;
+   border-radius: 0.5em;
+   width: 50%;
+   border: 2px solid white;
+
+   
+}
+.register{
+    color: white;
+}
+.warning{
+
+
+    color: crimson;
+    font-weight: bolder;
+    font-size: large;
+}
+.success{
+    color:green;
+    font-weight: bolder;
+    font-size: large;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #1d3958;
+
+}
+
+.heading{
+    background-color: white;
+    padding: 5px;
+    border: 2px solid transparent;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+label{
+    padding: 15px 15px 15px 0 ;
+    font-size: larger;
+    color: white;
+}
+
+button{
+    border: 1px solid transparent;
+    border-radius: 1.2em;
+    background-color: white;
+    color:#1d3958 ;
+    font-weight: bolder;
+    padding: 10px;
+}
+.button{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+  .inputs{
+      padding: 15px;
+  }
+  input[type=text],textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    resize: vertical;
+  }
+  
+
+.link,a{
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+  
+td,th,tr{
+    border: 1px solid white;
+
+}
+
+th{
+font-weight: bolder;
+font-size: 20px;
+padding: 15px;
+}
+table{
+   
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+
+
+}
+.tables{
+    padding: 15px;
+    color:wheat;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:800px){
+    
+    .container{
+        display: block;
+        width: 100%;
+    }
+    .box{
+        display: block;
+    }
+    table{
+width: 100%;
+display: block;
+    }
+}

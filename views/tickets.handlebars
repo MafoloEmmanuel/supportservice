@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid transparent;
+        }
+       button{
+           border: none;
+           border-radius: unset;
+         
+       }
+   .button{
+  display: flex;
+           align-items: center;
+           justify-content: center;
+   }
+    </style>
+</head>
+<body>
+    <div class="tables">
+<table>
+        <tr>
+            <th>Username</th>
+            <th>Email Address</th>
+            <th>Problem Description</th>
+
+        </tr>
+        {{#each user}}
+        <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.email}}</td>
+            <td>{{this.problem}}</td>
+        </tr>
+        {{/each}}
+    </table>
+    </div>
+    <form action="/admin" method="get">
+        <div class="button" >
+        <button type="submit">Administration</button>
+    </div>
+    </form>
+    
+   </body>
+</html>

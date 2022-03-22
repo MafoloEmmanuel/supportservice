@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" csontent="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrations</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form action="/details" method="post">
+   <div class="">
+       
+       <div class="box"> 
+
+   <div class="inputs">
+       <label for="" id="name">Username</label>
+
+   <div>
+       <input type="text" name="name" value="{{name}}" size="42">
+   </div>
+   <div>
+       <label id="name" for="">Email Address</label>
+
+   </div>
+
+   <div>
+       <input type="text" name="email" value="{{email}}" size="42">
+
+   </div>
+   <div>
+       <label id="" for="">Problem Description</label>
+
+   </div>
+    
+     <div>
+         <textarea name="problem" value="{{problem}}" cols="50" rows="15"></textarea>
+   </div>
+    
+     <div class="button">
+    <button type="submit">Submit</button>
+
+     </div>
+     </form>
+     <form action="/tickets" method="get">
+<div class="link">
+    <a href="/tickets">Click here to view existing tickets </a>
+</div>
+</form>
+   </div>
+
+</div>
+   </div> 
+</body>
+</html>
